@@ -1,0 +1,5 @@
+number_of_completed_homework_assignments = 12
+number_of_hours_spent = 1.5
+course_name = 'Python'
+time_for_one_task = 0.125
+print ("Назване курса: ", course_name, ', ', "Количество выполненных ДЗ: ", number_of_completed_homework_assignments, ', ', 'Количество затраченных часов; ', number_of_hours_spent, ', ', 'Время на одно задание: ', time_for_one_task, sep='')
