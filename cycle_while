@@ -1,0 +1,11 @@
+my_list = [42, 69, 322, 13, 0, 99, -5, 9, 8, 7, -6, 5]
+my_list_len = len(my_list)
+zero = 0
+while my_list_len > zero:
+        elem = my_list[zero]
+        zero += 1
+        if elem < 0:
+                break
+        elif elem == 0:
+                continue
+        print(elem)
